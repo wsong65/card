@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Wen-Yuan Song</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root { color-scheme: light dark; --bg: #F4F6F8; --paper: #FFFFFF; --ink: #111418; --muted: #5C6570; --hair: #E3E7EC; --panel: #1B2430; --panel-ink: #FFFFFF; --rule: #1B2430; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14181D; --paper: #1C2229; --ink: #ECEFF3; --muted: #9AA5B1; --hair: #2E3740; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Newsreader", Georgia, "Times New Roman", serif; line-height: 1.4; -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 36px 20px 48px; }
+.vc { width: 100%; max-width: 480px; background: var(--paper); border-radius: 12px; box-shadow: 0 1px 2px rgba(20,30,45,.08), 0 18px 40px -20px rgba(20,30,45,.35); overflow: hidden; }
+.vc-head { background: var(--panel); color: var(--panel-ink); padding: 34px 30px 30px; box-shadow: inset 0 -1px 0 var(--hair); }
+.name { font-size: 2.1rem; font-weight: 500; line-height: 1.1; letter-spacing: -0.005em; margin: 0 0 12px; overflow-wrap: anywhere; }
+.line { font-size: 1.15rem; margin: 0; overflow-wrap: anywhere; }
+.vc-body { padding: 26px 30px 30px; }
+.rule { width: 36px; height: 3px; background: var(--rule); margin-bottom: 18px; }
+.row { margin: 0 0 10px; font-size: 1.15rem; overflow-wrap: anywhere; }
+.quiet { color: var(--muted); }
+.vc-body a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.vc-body a.save { display: inline-block; text-decoration: none; margin-top: 22px; padding: 11px 18px; border-radius: 8px; background: var(--panel); color: var(--panel-ink); font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif; font-weight: 500; font-size: 1rem; text-decoration: none; }
+.vc-body a.save:focus-visible, .vc-body a:focus-visible { outline: 2px solid var(--rule); outline-offset: 2px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main class="vc">
+<header class="vc-head">
+<h1 class="name">Dr. Wen-Yuan Song</h1>
+<p class="line">Department of Plant Pathology</p>
+<p class="line">University of Florida</p>
+</header>
+<section class="vc-body">
+<div class="rule" aria-hidden="true"></div>
+<p class="row quiet">2431 Fifield Hall</p>
+<p class="row quiet">Gainesville, FL 32611</p>
+<p class="row"><a href="tel:3522734652">352-273-4652</a></p>
+<p class="row"><a href="mailto:wsong@ifas.ufl.edu">wsong@ifas.ufl.edu</a></p>
+<a class="save" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3ASong%3BDr.%20Wen-Yuan%3B%3B%3B%0D%0AFN%3ADr.%20Wen-Yuan%20Song%0D%0AORG%3AUniversity%20of%20Florida%3BDepartment%20of%20Plant%20Pathology%0D%0ATEL%3BTYPE%3DWORK%2CVOICE%3A352-273-4652%0D%0AEMAIL%3BTYPE%3DWORK%2CINTERNET%3Awsong%40ifas.ufl.edu%0D%0AADR%3BTYPE%3DWORK%3A%3B%3B2431%20Fifield%20Hall%3BGainesville%3BFL%3B32611%3B%0D%0AEND%3AVCARD" download="dr-wen-yuan-song.vcf">Save to contacts</a>
+</section>
+</main>
+</body>
+</html>
